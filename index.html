@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Shopping List</title>
+</head>
+
+<body>
+    <header>
+
+        <h1 class="first-line">
+        The Joy of Shopping!
+    </h1>
+        <h2 class="second-line"><img src="/images/logo.jpg" alt="" class="logo">Welcome to your Shopping Center</h2>
+    </header>
+    <section>
+        <div class="input">
+            <input type="text" value="" placeholder="add an item" id="addItemValue">
+            <button id="addItem">Add</button>
+        </div>
+        <ul class="shopping">
+            <li>
+                <button class="checkbox">✓</button>
+                <span class="list">bread</span>
+                <button class="delete">X</button>
+            </li>
+            <li class="check">
+                <button class="checkbox">✓</button>
+                <span class="list">hot dogs</span>
+                <button class="delete">X</button>
+            </li>
+            <li>
+                <button class="checkbox">✓</button>
+                <span class="list">chicken</span>
+                <button class="delete">X</button>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <button class="deleteall">Clear List</button>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

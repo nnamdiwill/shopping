@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/*general styles */
+
+html {
+    background: url("../images/right_facing_shopping_cart.jpg") no-repeat center center fixed;
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+/* Header styles */
+
+.first-line {
+    font-size: 250%;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    width: 40px;
+    margin: 10px;
+}
+
+
+/*Content Styles */
+
+.check {
+    background-color: grey;
+}
+
+li .checkbox {
+    align-items: center;
+}
+
+#input {
+    text-align: center;
+}
+
+
+/*Footer styles*/
